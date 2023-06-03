@@ -1,0 +1,32 @@
+.title{
+  text-align: center;
+  font-family: system-ui;
+  margin: 16px 0;
+
+}
+.product-list{
+  list-style: none;
+
+ 
+
+}
+.product{
+  margin: 8px 0;
+  font-family: system-ui;
+  padding:16px ; 
+  border-radius: 8px;
+  box-shadow:  1px 1px 2px gray;
+  border:1px solid gray;
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+  gap:16px;
+  background-color: white;
+}
+.product:hover{
+  background-color:rgb(98, 115, 129) ;
+
+}
+.product-img{
+  width:48px;
+}
